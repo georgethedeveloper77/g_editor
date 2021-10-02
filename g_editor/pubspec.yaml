@@ -1,0 +1,76 @@
+name: photo_editor_pro
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+2
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  image: ^3.0.2
+  cupertino_icons: ^1.0.3
+  nb_utils: ^4.2.9
+  google_fonts: ^2.1.0
+  url_launcher: ^6.0.2
+  mobx: ^2.0.1
+  flutter_mobx: ^2.0.0
+  share: ^2.0.4
+  package_info: ^2.0.2
+  cached_network_image: ^3.0.0
+  http: ^0.13.3
+
+  firebase_core: ^1.2.0
+  firebase_crashlytics: ^2.0.4
+  google_mobile_ads: ^0.13.0
+
+  glass_kit: ^2.0.0
+
+  permission_handler: ^8.0.0+2
+  path_provider: ^2.0.1
+  zoom_widget: ^0.1.3
+  screenshot: ^1.0.0-nullsafety.1
+  #photo_view: ^0.11.1
+
+  flutter_image_compress: ^1.0.0
+  image_cropper: ^1.4.0
+
+  image_picker: ^0.8.3
+  video_trimmer: ^0.5.4
+  font_awesome_flutter: ^9.0.0
+  flutter_vector_icons: ^1.0.0
+  flutter_native_image: ^0.0.6
+
+dependency_overrides:
+  photo_view: ^0.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.0.4
+  mobx_codegen: ^2.0.1+3
+  #flutter packages pub run build_runner build --delete-conflicting-outputs
+
+flutter:
+  uses-material-design: true
+  assets:
+    - images/
+    - images/frame/
+    - images/stickers/
+    - assets/fonts/
+    - images/collegeMaker/
+
+  fonts:
+    - family: Neon
+      fonts:
+        - asset: assets/fonts/neon.ttf
+    - family: NeonCity
+      fonts:
+        - asset: assets/fonts/neoncity.otf
+    - family: NeonLights
+      fonts:
+        - asset: assets/fonts/neonlights.ttf

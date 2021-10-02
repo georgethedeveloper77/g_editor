@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "114683316081",
+    "project_id": "g-editor-5aef4",
+    "storage_bucket": "g-editor-5aef4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114683316081:android:8eb904e3710bc42ce058d0",
+        "android_client_info": {
+          "package_name": "com.mindhunter.g_editor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114683316081-rcb7trlt1r0jan3onfmmqbgpnr1okope.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mindhunter.g_editor",
+            "certificate_hash": "82fb4da7a3e7dda4d56f9cbba81e510627e0fcb7"
+          }
+        },
+        {
+          "client_id": "114683316081-g0nv874rchb6am7n2si2mhgsopnvcnm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj6W-kjxP0g-LM3HSWk2g0BClBYenEmxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114683316081-g0nv874rchb6am7n2si2mhgsopnvcnm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
